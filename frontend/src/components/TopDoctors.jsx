@@ -1,8 +1,12 @@
-import React from "react";
-import { doctors } from "../assets/assets_frontend/assets";
+import React, { useContext } from "react";
+// import { doctors } from "../assets/assets_frontend/assets";
 import { Link } from "react-router-dom";
+import { appContext } from "../context/AppContext";
 
 const TopDoctors = () => {
+
+  const {doctors} = useContext(appContext);
+
   return (
     <div className="flex flex-col gap-10 items-center">
       <div>
@@ -26,7 +30,7 @@ const TopDoctors = () => {
           </Link>
         ))}
       </div>
-      <button>More</button>
+      <button className=" bg-[#EAEFFF] py-4 px-20  rounded-full">More</button>
     </div>
   );
 };
