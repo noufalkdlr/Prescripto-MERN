@@ -15,7 +15,7 @@ const Footer = () => {
         </p>
       </div>
       <div>
-        <h3 className="pb-10">COMPANY</h3>
+        <h3 className="pb-10 font-medium text-lg ">COMPANY</h3>
         <div className=" flex flex-col gap-6">
           <p>Home</p>
           <p>About Us</p>
@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <h3 className="pb-10">GET IN TOUCH</h3>
+        <h3 className="pb-10 font-medium text-lg ">GET IN TOUCH</h3>
         <div className=" flex flex-col gap-6" >
           <p>+1-212-456-7890</p>
           <p>greatstackdev@gmail.com</p>
