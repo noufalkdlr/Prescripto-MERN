@@ -59,7 +59,7 @@ const Doctors = () => {
         <div className="grid grid-cols-5 gap-6  ">
           {filterDoc.map((item, index) => (
             
-            <div className="bg-[#EAEFFF] w-[300px] h-[400px] relative border border-[#EAEFFF] rounded-lg overflow-hidden mb-2 hover:-translate-y-2 transition-all duration-300">
+            <div onClick={()=> navigate(`/appointments/${item._id}`)} className="bg-[#EAEFFF] w-[300px] h-[400px] relative border border-[#EAEFFF] rounded-lg overflow-hidden mb-2 hover:-translate-y-2 transition-all duration-300">
               <div className="absolute bottom-28">
                 <img className="w-full h-auto" src={item.image} alt="" />
               </div>
