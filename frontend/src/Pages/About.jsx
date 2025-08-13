@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-4xl font-semibold py-8">ABOUT US</h1>
-      <div className="flex gap-20 w-3/4">
+      <div className="flex items-center gap-20 w-3/4">
         <img className="w-1/4 h-full" src={assets.about_image} alt="" />
         <div className="leading-8">
           <p>
